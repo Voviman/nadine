@@ -53,6 +53,9 @@ body {
     margin-top: 100px;
     background-color: #2b4f57;
     padding-bottom: 110px;
+    background-image: url('../img/bgc.png');
+    background-position: center center;
+    
     
 }
 
