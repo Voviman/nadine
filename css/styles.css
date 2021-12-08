@@ -14,9 +14,6 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    height: 100vh;
-}
 
 .nav {
     display: flex;
@@ -93,7 +90,8 @@ body {
 .slider__item {
     flex: 0 0 50%;
     max-width: 50%;
-    height: 250px;
+    height: 548px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,8 +119,177 @@ body {
     background-color: #4caf50;
 }
 
+.slider__item>img {
+    height: 500px;
+    width: 500px;
+}
+
+
 h1 {
     text-align: center;
     font-size: 50px;
     font-weight: 900;
+}
+
+.container {
+    padding: 16px;
+    background-color: #dbd3bd;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #dbd3bd;
+    text-align: center;
+}
+
+.statezip {
+    display: inline;
+}
+
+
+.booking {
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: #dbd3bd;
+    margin-top: 100px;
+    align-items: center;
+    padding: 40px;
+}
+
+.room {
+   
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.room_header {
+    text-align: left;
+}
+
+.room_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.room_text {
+    padding-right: 50px;
+}
+
+.room_pic {
+    max-width: 700px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+.junior {
+    background-color: #FFE4C4;
+}
+
+.deluxe {
+    background-color: #F5DEB3;
+}
+
+.exclusive {
+    background-color: #D2B48C;
+}
+
+.royal {
+    background-color: #F0E68C;
+}
+
+.fac {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.gallery>img {
+    max-width: 400px;
+    height: 300px;
+    padding-left: 20px;
+}
+
+.contacts {
+    margin-top: 200px;
+    background-color: #FFE4C4;
+    padding: 100px 0;
+}
+
+.contacts-box {
+    margin-top: 100px;
+    text-align: left;
+}
+
+.location {
+    width: 500px;
+    height: 500px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.tabss {
+    
+    margin: 0;
+}
+
+.slider {
+   
+    margin: 0;
 }

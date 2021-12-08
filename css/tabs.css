@@ -35,7 +35,7 @@
     color: #000;
     transition: 0.2s;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .tabs__links>a:hover {
@@ -44,7 +44,8 @@
 
   .tabs>#content-1:target~.tabs__links>a[href="#content-1"],
   .tabs>#content-2:target~.tabs__links>a[href="#content-2"],
-  .tabs>#content-3:target~.tabs__links>a[href="#content-3"] {
+  .tabs>#content-3:target~.tabs__links>a[href="#content-3"],
+  .tabs>#content-4:target~.tabs__links>a[href="#content-4"] {
     background-color: #e4b864;
     cursor: default;
   }
