@@ -40,6 +40,11 @@ body {
     color: black;
     font-weight: 700;
     font-size: 20px;
+    transition: 0.2s;
+}
+
+.nav_items > li > a:hover {
+    color: rgb(124, 124, 124);
 }
 
 .logo {
@@ -120,8 +125,8 @@ body {
 }
 
 .slider__item>img {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 100%;
 }
 
 
@@ -217,6 +222,7 @@ a {
 
 .room_text {
     padding-right: 50px;
+    font-size: 20px;
 }
 
 .room_pic {
@@ -252,6 +258,13 @@ hr {
 .fac {
     margin-top: 200px;
     margin-bottom: 200px;
+    background-color: #FFFFF0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.fac-box>p {
+    font-size: 18px;
 }
 
 .gallery>img {
@@ -262,8 +275,14 @@ hr {
 
 .contacts {
     margin-top: 200px;
-    background-color: #FFE4C4;
+    background-color: #FFEBCD;
     padding: 100px 0;
+    padding-bottom: 200px;
+}
+
+.contact-box_upper {
+    display: flex;
+    justify-content: space-between;
 }
 
 .contacts-box {
@@ -272,7 +291,7 @@ hr {
 }
 
 .location {
-    width: 500px;
+    width: 100%;
     height: 500px;
 }
 
@@ -292,4 +311,93 @@ hr {
 .slider {
    
     margin: 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: left;
+}
+
+.social-media {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.social-media>a {
+    padding-left: 15px;
+}
+
+.social-media>a:first-child{
+    padding-left: 0;
+}
+
+.fa-facebook{
+    color: rgba(33, 33, 184, 0.856);
+}
+
+.fa-twitter {
+    color: cornflowerblue;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-instagram{
+    color: palevioletred;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    align-items: center;
+}
+
+.footer>ul>li {
+    list-style-type: none;
+}
+
+.footer>ul>li>a {
+    color: black;
+}
+
+.footer_social-media {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.footer_social-media>a>i{
+    color: black;
+}
+
+footer {
+    background-color: #D2B48C;
+}
+
+#active_page {
+    text-decoration: underline;
+}
+
+.page_nav > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.page_nav > ul > li {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.page_nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.page_nav > ul > li > a:hover {
+    color:rgb(138, 138, 138);
 }
